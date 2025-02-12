@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+           Practice
+        </title>
+        <style>
+            body{
+                background-image: url(d3.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .navigation{
+                display:flex;
+            }
+            h2{
+                margin-right: 500px;
+            }
+            ul a {
+                margin-left: 50px;
+                text-decoration: none;
+                text-decoration-color: rgb(238, 240, 242);
+            }
+            .Login{
+                margin-left: 50px;
+                margin-top: 15px;
+            }
+            section{
+                display:flex;
+            }
+            form{
+                background-color: white;
+                width:max-content;
+                padding: 10px;
+            }
+            
+            
+                  
+        </style>
+    </head>
+
+    <body>
+        <nav class="navigation">
+            <div>
+                <h2>Coding Nepal</h2>
+            </div>
+            <div>
+                <ul>
+                    <a href="">Home</a>
+                    <a href="">Portfolio</a>
+                    <a href="">Courses</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                </ul>
+            </div>
+            <div>
+                <button class="Login">LOG IN</button>
+            </div>
+        </nav>
+        <section id="formsection">
+            <div>
+                <img src="lp.jpg" width="100px" height="100px">
+                <h3>WELCOME</h3>
+                <p>Please log in using your personal information to stay connected with us</p>
+            </div>
+
+            <div align="center">
+                <form action="get" id="form" >
+                    <h3>LOGIN</h3>
+                    <input type="email" placeholder="Email" required><br>
+                    <input type="password" placeholder="Password" required><br>
+                    <a href="">Forget password?</a>
+                    <div>
+                        <button id="Log In">LOG IN</button>
+                    </div>
+                    <p>Don't have an account? <a href="">Sign Up</a> </p>
+                </form>
+            </div>
+        </section>
+    </body>
